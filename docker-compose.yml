@@ -17,4 +17,4 @@ services:
     depends_on:
       - web
     volumes:
-      - ./nginx:/etc/nginx/conf.d:ro
+      - ./nginx:/etc/nginx/conf.d:r
