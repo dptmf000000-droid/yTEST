@@ -15,8 +15,9 @@ COPY . .
 # Flask가 바인딩할 포트
 EXPOSE 5001
 
-# 컨테이너 시작 시 실행 명령
+# 컨테이너 시작 시 실행 명령ß
 CMD ["python", "app.py"]
+
 
 
 
